@@ -12,6 +12,17 @@ public abstract class Animal
 		public abstract void hunt();
 		public abstract void sleep();
 		
+		
+		//Specific to bird
+		protected String feathers;
+		protected int wingspan;
+		protected boolean canFly;
+		
+		public abstract void typeOfFeathers();
+		public abstract void wingspanLength();
+		public abstract void birdFlight();
+		
+		
 		public void eat()
 			{
 				System.out.println("The " + name + " is looking forward to eating " + food + ".");
